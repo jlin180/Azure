@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void Connect(View view) {
+        Intent n = new Intent(this, MainActivity2.class);
+        startActivity(n);
+    }
 }

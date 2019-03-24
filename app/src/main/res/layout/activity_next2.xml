@@ -4,6 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.azure.NextActivity2">
+    android:background="#ffe6e6"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="142dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView4"
+        android:layout_centerInParent="true"
+
+        android:lineSpacingExtra="8sp"
+        android:text="What can I do?"
+        android:textSize="14sp"
+        android:onClick="Happy"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView8"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-17dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="30dp"
+        android:text="That's great to hear that you are happy! Happiness can promote a healthy lifestyle for you, and can influence others to be happy too! Why don't you share some of that?!"
+        android:textColor="#88BBBE"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="185dp"
+        android:layout_height="311dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/happy" />
+</RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

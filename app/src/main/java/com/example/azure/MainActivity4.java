@@ -64,7 +64,7 @@ public class MainActivity4 extends AppCompatActivity implements RetrieveGetSenti
                 analyzer(score2[0]);
             }
 
-    public void click(View view) {
+    public void Check(View view) {
         final String[] score2 = {null};
 //        RetrieveGetSentiment RetrieveGetSentiment = new RetrieveGetSentiment(new RetrieveGetSentiment.AsyncResponse() {
 //            @Override
