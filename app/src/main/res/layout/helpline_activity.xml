@@ -26,7 +26,7 @@
     <TextView
         android:id="@+id/textView10"
         android:layout_width="356dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:text="+ General: 800-950-6264 (NAMI)"
@@ -55,7 +55,7 @@
     <TextView
         android:id="@+id/textView11"
         android:layout_width="356dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:layout_marginEnd="28dp"
@@ -69,9 +69,21 @@
         android:layout_below="@id/textView10"/>
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_height="wrap_content"
+        android:layout_width="356dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="+ Sexual Assault: 800-656-4673"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView14"/>
+
+    <TextView
         android:id="@+id/textView12"
         android:layout_width="356dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:layout_marginEnd="28dp"
@@ -87,7 +99,7 @@
     <TextView
         android:id="@+id/textView13"
         android:layout_width="356dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:layout_marginEnd="28dp"
@@ -103,18 +115,13 @@
     <TextView
         android:id="@+id/textView14"
         android:layout_width="356dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
-        android:layout_marginBottom="526dp"
-        android:text="+Autism: 877-654-GIVE"
+        android:text="+ Autism: 877-654-GIVE"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
         android:layout_below="@id/textView13"/>
 
     <TextView
@@ -221,9 +228,9 @@
         android:id="@+id/imageView10"
         android:layout_width="68dp"
         android:layout_height="93dp"
-        android:layout_below="@id/textView13"
+        android:layout_below="@id/textView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="5dp"
         app:srcCompat="@drawable/phone"
         tools:layout_editor_absoluteX="164dp"
         tools:layout_editor_absoluteY="216dp" />
