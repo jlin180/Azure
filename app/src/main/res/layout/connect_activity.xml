@@ -72,7 +72,7 @@
             android:layout_marginTop="25dp"
             android:layout_marginLeft="20dp"
             android:textSize="13dp"
-            android:text="Through education, awareness, and discussions, the way mental health is treated can improve. Communities also provide a safe space for those suffering from mental health issues and are seeking help." />
+            android:text="Through education, awareness, and discussion, the way mental health is approached can improve. Communities provide a safe space for those struggle from mental health issues and are currently seeking help." />
 
         <TextView
             android:id="@+id/textView7"
@@ -82,7 +82,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="10dp"
             android:layout_marginTop="25dp"
-            android:text="Addressing the topic of mental illness and providing the proper help can be difficult. By being better educated in these areas, you can be a great support system for those in need of one." />
+            android:text="Addressing the topic of mental health and providing the proper aid can be difficult. By being better educated in multiple areas of Psychology, you can be a great support system for someone." />
+
 
         <TextView
             android:id="@+id/textView8"
@@ -93,7 +94,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
 
-            android:text="Make a positive impact in the of those suffering from mental illness." />
+            android:text="Make a positive impact in the life of those struggling with mental health." />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

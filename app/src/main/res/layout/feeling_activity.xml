@@ -48,7 +48,7 @@
         android:layout_marginLeft="52dp"
         android:layout_marginBottom="7dp"
         android:ems="10"
-        android:hint="Are you Happy or Sad?"
+        android:hint="I'm feeling..."
         android:inputType="text"
         android:singleLine="false"
         android:textSize="14sp"

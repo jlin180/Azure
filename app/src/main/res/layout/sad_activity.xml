@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView7"
             android:layout_centerHorizontal="true"
-            android:text="Take a few deep breaths! It's okay to be sad, but know that there are people around you who love and care for you more than you think!"
+            android:text="Take a deep breath! We are here for you. We are always here to listen and we would like to provide you with resources. "
+            android:textAlignment="center"
             android:textSize="18sp" />
 
         <!--android:textColor="#E06E88"

@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
-        android:text="Causes"
+        android:text="Possible causes"
         android:textColor="#ffffff"
         android:textStyle="bold"
         android:layout_below="@id/textView18" />
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="25dp"
-        android:text="--> Therapy"
+        android:text="--> Counseling"
         android:textSize="12sp"
         android:layout_below="@id/textView22" />
 
@@ -107,7 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="25dp"
-        android:text="--> Antidepressant medications"
+        android:text="--> Psychotherapy to help individuals see their self worth and improve personal skills"
         android:textSize="12sp"
         android:layout_below="@id/textView23" />
 
@@ -118,7 +118,8 @@
             android:layout_below="@id/textView24"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="5dp"
-            android:text="--> Psychotherapy to help individuals see their self worth and improve personal skills"
+            android:text="--> Antidepressant medications
+     (consider as last option if possible)"
             android:textSize="12sp" />
 
         <ImageView

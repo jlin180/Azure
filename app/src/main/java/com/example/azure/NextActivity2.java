@@ -28,7 +28,7 @@ public class NextActivity2 extends AppCompatActivity {
 
 
     public void Happy(View view) {
-        Intent i = new Intent ( this, SecondConnect.class);
+        Intent i = new Intent ( NextActivity2.this, MainActivity2.class);
         startActivity(i);
 
 
