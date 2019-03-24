@@ -29,4 +29,14 @@ public class MainActivity extends AppCompatActivity {
         Intent n = new Intent(this, MainActivity2.class);
         startActivity(n);
     }
+
+    public void Cite(View view) {
+        Intent m = new Intent(this, MainActivity10.class);
+        startActivity(m);
+    }
+
+    public void Education(View view) {
+        Intent g = new Intent(this, MainActivity3.class);
+        startActivity(g);
+    }
 }

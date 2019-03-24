@@ -4,16 +4,31 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class NextActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_next2);
+        setContentView(R.layout.happy_activity);
+
+        Button btnHappy = findViewById(R.id.button3);
+
+        btnHappy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent ( NextActivity2.this, SecondConnect.class);
+                startActivity(i);
+            }
+        });
+
     }
+
+
+
     public void Happy(View view) {
-        Intent i = new Intent ( this, MainActivity2.class);
+        Intent i = new Intent ( this, SecondConnect.class);
         startActivity(i);
 
 

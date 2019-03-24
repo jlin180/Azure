@@ -1,13 +1,13 @@
 package com.example.azure;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity7 extends AppCompatActivity {
+public class SecondConnect extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.helpline_activity);
+        setContentView(R.layout.connect_activity2);
     }
 }

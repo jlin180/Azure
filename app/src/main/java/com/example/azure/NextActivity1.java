@@ -10,7 +10,7 @@ public class NextActivity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_next1);
+        setContentView(R.layout.sad_activity);
     }
     public void DoSomething(View view) {
         Intent i = new Intent ( this, MainActivity7.class);
