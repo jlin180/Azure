@@ -18,7 +18,7 @@ public class NextActivity2 extends AppCompatActivity {
         btnHappy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent ( NextActivity2.this, SecondConnect.class);
+                Intent i = new Intent ( NextActivity2.this, MainActivity2.class);
                 startActivity(i);
             }
         });
