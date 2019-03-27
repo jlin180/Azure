@@ -1,8 +1,8 @@
 # Azure
 
-https://youtu.be/ordq6h9il_k
+To see how the app works : https://youtu.be/ordq6h9il_k
 
-
+# About the App
 This app was targeted towards those who want to support those with mental health issues or those who want to seek help.
 Our team created an Education tab which is used to educate the users on different kinds of mental health issues. We believe that in order for someone who support those who have mental health issues, they must first understand these issues.
 
