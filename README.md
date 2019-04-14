@@ -1,4 +1,4 @@
-# Azure
+# LHC
 Created by : Jia Yu Lin, Sarah Wan, Rachel Tan, Aleena Sheikh, Maria Ureña
 Date : 3/24/2019
 
